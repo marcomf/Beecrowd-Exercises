@@ -2,11 +2,10 @@
 
 int main()
 {
-    int i, j;
-
+    	int i, j;
 	for  (int i=1,j=7; 10>i; i+=2)
 	{
-        printf("I=%d J=%d\n",i,j);
+		printf("I=%d J=%d\n",i,j);
 		j-=1;
 		printf("I=%d J=%d\n",i,j);
 		j-=1;
@@ -14,5 +13,5 @@ int main()
 		if(j==5)
 			j=7;
 	}
-    return 0;
+    	return 0;
 }
