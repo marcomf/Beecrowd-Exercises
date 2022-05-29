@@ -12,7 +12,9 @@ int main()
 		j-=1;
 		printf("I=%d J=%d\n",i,j);
 		if(j==5)
+		{
 			j=7;
+		}
 	}
     return 0;
 }
