@@ -36,6 +36,5 @@ int main()
         if  ((A == B && C!=A) || (A == C && B!=A) || (C == B && A!=C))       
             printf("TRIANGULO ISOSCELES\n");
     }
-
     return 0;
 }

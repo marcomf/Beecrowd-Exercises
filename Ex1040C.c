@@ -28,6 +28,5 @@ int main()
             printf("Media final: %.1lf\n",media);
         }
     }
-
     return 0;
 }

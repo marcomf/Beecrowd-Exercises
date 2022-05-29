@@ -15,6 +15,5 @@ int main()
         area = ((A+B)*C)/2;
         printf("Area = %.1lf\n",area);
     }
-
     return 0;
 }
