@@ -2,9 +2,9 @@
 
 int main()
 {
-    int p, i, I, J; 
+    int p, j, I, J; 
 
-	for  (p=13, i=1, I=-2, J=65; p >= i; i++)
+	for  (p=13, j=1, I=-2, J=65; p >= j; j++)
     {
 		I = I+3;
 		J = J-5;
