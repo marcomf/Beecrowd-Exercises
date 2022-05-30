@@ -9,12 +9,12 @@ int main()
 	ht = hf - hi;
 
 	if  (ht <= 0)
-    {
+	{
 		ht = ht+(60*24);
 	}
 	mt = ht%60;
 	ht = ht/60;
-    printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n",ht,mt);
+	printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n",ht,mt);
 
 	return 0;
 }

@@ -2,10 +2,10 @@
 
 int main()
 {
-    int X;
+	int X;
 
-    scanf("%d",&X);
-    printf("%d minutos\n",X*2);
+	scanf("%d",&X);
+	printf("%d minutos\n",X*2);
 
-    return 0;
+	return 0;
 }

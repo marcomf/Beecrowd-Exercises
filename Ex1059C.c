@@ -2,12 +2,12 @@
 
 int main()
 {
-    int i;
+	int i;
 
-    for  (i=1; 100>=i; i++)
-    {
-        if  (i%2==0)
-            printf("%d\n",i);
-    }
-    return 0;
+	for  (i=1; 100>=i; i++)
+	{
+		if  (i%2==0)
+			printf("%d\n",i);
+	}
+	return 0;
 }

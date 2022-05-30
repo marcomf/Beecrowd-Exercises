@@ -14,7 +14,7 @@ int main(){
 	printf("NOTAS:\n");
 	printf("%d nota(s) de R$ 100.00\n",A/100);
 	A = A%100;
-    printf("%d nota(s) de R$ 50.00\n",A/50);
+	printf("%d nota(s) de R$ 50.00\n",A/50);
 	A = A%50;
 	printf("%d nota(s) de R$ 20.00\n",A/20);
 	A = A%20;
@@ -40,5 +40,5 @@ int main(){
 	A = A%5;
 	printf("%d moeda(s) de R$ 0.01\n",A);
 
-    return 0;
+	return 0;
 }
