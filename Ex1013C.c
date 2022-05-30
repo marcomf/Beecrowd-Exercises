@@ -9,7 +9,7 @@ int main()
 		scanf("%d",&entrada);
 		if  (entrada>maior)
 		{
-			maior=entrada;
+			maior = entrada;
 		}
 	}
 	printf("%d eh o maior\n",maior);
