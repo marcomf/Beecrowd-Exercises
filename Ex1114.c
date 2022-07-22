@@ -3,22 +3,22 @@
 
 int main()
 {
-	int Senha, A=1;
+    int Senha, A=1;
 
-	scanf("%d",&Senha);
+    scanf("%d",&Senha);
 
-	while  (A==1)
-	{
-		if  (Senha != 2002)
-		{
-			printf("Senha Invalida\n");
-			scanf("%d",&Senha);
-		}
-		else
-		{
-			printf("Acesso Permitido\n");
-			A=0;
-		}
-	}  
-	return 0;
+    while  (A==1)
+    {
+        if  (Senha != 2002)
+        {
+            printf("Senha Invalida\n");
+            scanf("%d",&Senha);
+        }
+        else
+        {
+            printf("Acesso Permitido\n");
+            A=0;
+        }
+    }  
+    return 0;
 }
